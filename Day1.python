@@ -7,9 +7,9 @@ list = ['A', 'B', 'C']
 my_var = ['gaeun', 'A', '100']
 
 num1 = 10
-num2 = 20
+num2 = 30
 
 print(my_var) # [gaeun, A, 100]
-print(num1+num2) # 30
+print(num1+num2) # 40
 print("num1"+"num2") # num1num2
-print([num1]+[num2]) # [10, 20]
+print([num1]+[num2]) # [10, 23
