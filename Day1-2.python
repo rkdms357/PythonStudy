@@ -1,0 +1,13 @@
+a = '123'  # str
+b = '4.567' # str
+
+print(a + b)
+print(type(a))
+print(type(b))
+
+c = int(a) # int
+d = float(b) # int
+
+print(c + d)
+print(type(c))
+print(type(d))
