@@ -1,0 +1,7 @@
+a = 3 != 4 and 4 <= 5 and 6 > 2 # True
+b = 3 == 4 or 4 <= 5 or 6 < 2 # True
+c = 3 == 4 and 4 <= 5 or 6 < 2 # False
+d = 3 == 4 or 4 <= 5 and 6 < 2 #False
+e = not 3 == 4 # True
+
+print(a, b, c, d, e)
