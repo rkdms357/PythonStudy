@@ -1,0 +1,17 @@
+computer = 25
+
+print("1~100까지의 숫자 중 하나를 입력하세요.")
+user = int(input()) # 숫자로 입력 받기
+
+if computer > user:
+    if user < 1:
+        print("잘못 입력하였습니다.")
+    else:
+        print("컴퓨터보다 작은 수를 입력하였습니다.")
+elif computer < user:
+    if user > 100:
+        print("잘못 입력하였습니다.")
+    else:
+        print("컴퓨터보다 큰 수를 입력하였습니다.")
+else:
+    print("정답!")
