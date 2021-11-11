@@ -1,6 +1,5 @@
 # 리스트에 원소 추가
 a = []
-
 a.append(1)
 a.append(2)
 a.append(4)
