@@ -1,0 +1,11 @@
+my_dict = {'name':'gaeun'}
+my_dict['age'] = '21'
+
+print(my_dict)
+print(my_dict['name'])
+
+del my_dict['age']
+print(my_dict)
+
+# dict = {[1, 2, 3]: 'Alphabet'} 오류
+# dict = {(1, 2, 3): 'Alphabet'} ok
