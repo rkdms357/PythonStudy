@@ -1,0 +1,27 @@
+# 인덱싱
+a = "apple"
+print(a[4])
+print(a[-1])
+
+# 슬라이싱
+b = ['a', 'p', 'p', 'l', 'e']
+print(b[2:4]) # 이상:미만
+print(b[:4])
+print(b[:-1])
+
+# 원소 조회
+c = "banana"
+print('a' in a)
+print('o' in a)
+
+# 길이 찾기
+d = ['b', 'a', 'n', 'a', 'n', 'a']
+print(len(d))
+
+# 연결 연산
+e = "app" + "le"
+print(e)
+
+# 반복 연산
+f = "apple " * 3
+print(f)
