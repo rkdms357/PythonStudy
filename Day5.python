@@ -1,0 +1,5 @@
+def solve(a, b): # a, b는 매개변수
+    return a * b
+var1 = solve(3, 4) # 3과 4는 인자 값
+var2 = solve(3, ['good'])
+print(var1, var2)
