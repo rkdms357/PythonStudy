@@ -1,0 +1,8 @@
+# cal.py
+def plus(a, b):
+ c = a + b
+ return c
+ 
+ # main.py
+import cal
+print(cal.plus(3, 4))
