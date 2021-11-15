@@ -1,0 +1,10 @@
+# 리스트
+list_arr = list(range(5)) # [0, 1, 2, 3, 4]
+print(list_arr)
+print(type(list_arr))
+
+# 다차원 배열
+import numpy as np
+np_arr = np.array(range(5)) # [0 1 2 3 4]
+print(np_arr)
+print(type(np_arr))
