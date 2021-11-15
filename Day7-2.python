@@ -1,0 +1,11 @@
+import numpy as np
+array = np.array(range(10))
+print("array는", array)
+
+print(type(array)) # 자료형
+print(array.ndim) # 차원
+print(array.shape) # 모양
+print(array.size) # 크기
+print(array.dtype) # dtype
+print(array[5]) # 인덱스 5의 요소 출력
+print(array[3:5]) # 인덱스의 3부터 5의 요소 출력
