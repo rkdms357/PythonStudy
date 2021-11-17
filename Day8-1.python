@@ -1,0 +1,10 @@
+import pandas as pd
+data = pd.Series([1, 2, 3, 4], 
+                 index = ['a', 'b', 'c', 'd'],
+                 dtype = "float")
+print(data)
+print(type(data))
+print(data.values)
+print(type(data.values))
+data['c'] = 5
+print(data)
