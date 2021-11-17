@@ -1,0 +1,15 @@
+import pandas as pd
+series = pd.Series([1, 2, 3, 4], 
+                   index = ['a', 'b', 'c', 'd'],
+                   name = 'title'
+                   )
+print(series, '\n')
+
+dict = {
+    'korea': 5180,
+    'japan': 12718,
+    'china': 141500,
+    'usa': 32676
+    }
+country = pd.Series(dict)
+print(country)
